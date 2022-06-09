@@ -1,1 +1,743 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#f2f2f2;background-color:#f2f2f2"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width"><title>Bitnami</title><style>@media only screen{html{min-height:100%;background:#f3f3f3}}@media only screen and (max-width:596px){table.body img{width:auto;height:auto}table.body center{min-width:0!important}table.body .container{width:95%!important}table.body .columns{height:auto!important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:16px!important;padding-right:16px!important}table.body .columns .columns{padding-left:0!important;padding-right:0!important}th.small-12{display:inline-block!important;width:100%!important}.columns th.small-12{display:block!important;width:100%!important}}</style></head><body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;background:#f2f2f2;background-color:#f2f2f2;box-sizing:border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;width:100%!important"><span class="preheader" style="color:#f3f3f3;display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibility:hidden"></span><table class="body" style="Margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><td class="center" align="center" valign="top" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><center style="min-width:580px;width:100%"><table align="center" class="container float-center" style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;vertical-align:top;width:580px"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><table class="row header" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding:0!important;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><img src="https://i.postimg.cc/JzXZqtKM/logo.png" class="logo" alt="image of bitnami logo" style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></th><th class="expander" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"></th></tr></tbody></table></th></tr></tbody></table><table class="row build-app" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h4 style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">New Tanzu Developer Portal: Grow Your Skills Building Apps</h4><img src="https://i.postimg.cc/QthQVsQs/bg1.jpg" class="bg" alt="image of bitnami background one" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px!important"><p style="Margin:0;Margin-bottom:10px;color:#5f6369;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">VMware Tanzu is a collection of software and open source projects designed to help developers build modern applications within the companies they are working for. The Tanzu Developer portal brings you a selection of essential topics for modern app development. Learn about the latest languages, frameworks, and CI/CD platforms to boost your skills and start building amazing applications!</p><a href="#" class="btn" style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn More</a></th><th class="expander" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"></th></tr></tbody></table></th></tr></tbody></table><table class="row deploy" style="background:#00437b;background-color:#00437b;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h4 style="Margin:0;Margin-bottom:10px;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">Deploy from a Private Helm and Docker Registry Through Kubeapps</h4><img src="https://i.postimg.cc/NMdHMXG7/bg3.png" class="bg" alt="image of bitnami background" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px"><p style="Margin:0;Margin-bottom:10px;color:#c7c7c7;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">The new release of Kubeapps now supports the deployment from private Helm repositories with private Docker images. Now you can associate a Docker image pull secret to an application repository from the Kubeapps UI to simplify the access to private repos within a Kubernetes RBAC authentication model. Both Kubernetes cluster operators and users will benefit of this new feature, so check out the latest feature now.</p><a href="#" class="btn" style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn More</a></th><th class="expander" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"></th></tr></tbody></table></th></tr></tbody></table><table class="row application-catalog" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h4 style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">Consume Tanzu Application Catalog Images Using A Private Harbor Registry</h4><img src="https://i.postimg.cc/Pr91Y1WS/bg2.jpg" class="bg" alt="image of bitnami background" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px"><p style="Margin:0;Margin-bottom:10px;color:#5f6369;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">Learn how to consume your images from a private registry like Harbor with access to the latest, most secure, and continuously maintained container images from the Tanzu Application Catalog. Follow the step-by-step guide below to learn how.</p><a href="#" class="btn" style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn More</a></th><th class="expander" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word"></th></tr></tbody></table></th></tr></tbody></table><div class="line" style="background:#222;background-color:#222;color:#222;height:1px;margin:0 auto;margin-bottom:25px!important;margin-top:25px!important;width:475px!important"></div><table class="row icon-container" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:middle!important;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-1 columns first" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><img src="https://i.postimg.cc/FzK0gZCB/icon1.png" class="logo" alt="image of bitnami icon" width="50px" height="50px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto"></th></tr></tbody></table></th><th class="small-12 large-6 columns last" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><a href="#" style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">How to Use and Consume Trusted Content in your Organization with VMware Tanzu Application Catalog</a></th></tr></tbody></table></th></tr></tbody></table><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-1 columns first" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><img src="https://i.postimg.cc/9MbG7Sb9/icon2.png" class="icon" alt="image of bitnami icon" width="50px" height="50px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto"></th></tr></tbody></table></th><th class="small-12 large-6 columns last" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><a href="#" style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Container Registry: Easily Deploy Container Assets on VMware Cloud Marketplace</a></th></tr></tbody></table></th></tr></tbody></table><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-1 columns first" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><img src="https://i.postimg.cc/CMvGM3zT/icon3.png" class="icon" alt="image of bitnami icon" width="50px" height="50px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto"></th></tr></tbody></table></th><th class="small-12 large-6 columns last" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><a href="#" style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Build, Deploy and Monitor an Express Application on Kubernetes with Bitnami and Sentry</a></th></tr></tbody></table></th></tr></tbody></table><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-1 columns first" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><img src="https://i.postimg.cc/PJFY6wBr/icon4.png" class="icon" alt="image of bitnami icon" width="50px" height="50px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto"></th></tr></tbody></table></th><th class="small-12 large-6 columns last" valign="middle" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word"><a href="#" style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Backup and Restore MariaDB Galera Deployments on Kubernetes</a></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table><div class="line" style="background:#222;background-color:#222;color:#222;height:1px;margin:0 auto;margin-bottom:25px!important;margin-top:25px!important;width:475px!important"></div><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h4 class="text-center" style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Most recently updated apps</h4><table class="row icons" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-3 columns first" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">PostgreSQL HA</h6><img src="https://i.postimg.cc/TYprKtDy/update-app1.png" class="app" alt="image of bitnami update app" width="90px" height="90px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Version Update 12.3.0</h6></th></tr></tbody></table></th><th class="small-12 large-3 columns" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Redis</h6><img src="https://i.postimg.cc/26kWrGYS/update-app2.png" class="app" alt="image of bitnami update app" width="90px" height="90px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Version Update 6.0.3</h6></th></tr></tbody></table></th><th class="small-12 large-3 columns" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Grafana</h6><img src="https://i.postimg.cc/mrN9vq0n/update-app3.png" class="app" alt="image of bitnami update app" width="90px" height="90px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Version Update 6.7.3</h6></th></tr></tbody></table></th><th class="small-12 large-3 columns last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">MySQL</h6><img src="https://i.postimg.cc/MG8RrxrR/update-app4.png" class="app" alt="image of bitnami update app" width="90px" height="90px" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto"><h6 style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Version Update 8.0.20</h6></th></tr></tbody></table></th></tr></tbody></table><a href="#" class="btn" style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">More Updates</a></th></tr></tbody></table></th></tr></tbody></table><table class="row benefits" style="background:#00437b;background-color:#00437b;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:20px!important;padding-left:20px!important;padding-right:20px!important;padding-top:40px!important;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><h4 style="Margin:0;Margin-bottom:10px;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">Great Ways You Can Benefit From Bitnami</h4><table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-6 columns first" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="#" style="color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:18px!important;font-weight:400;line-height:1.3;padding:0;text-align:center;text-decoration:underline">Launch Bitnami Applications in the Cloud</a></th></tr></tbody></table></th><th class="small-12 large-6 columns last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:top;width:50%;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><a href="#" style="color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:18px!important;font-weight:400;line-height:1.3;padding:0;text-align:center;text-decoration:underline">Run Applications in Kubernetes</a></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table></th></tr></tbody></table><table class="row space" style="background:#e9e9e9;background-color:#e9e9e9;border-collapse:collapse;border-spacing:0;display:table;height:60px!important;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%!important"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"></tr></tbody></table><table class="row footer" style="background:#e9e9e9;background-color:#e9e9e9;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%!important"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th class="small-12 large-12 columns first last" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word"><table style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><th style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word"><center style="min-width:532px;width:100%"><table align="center" class="row float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;display:table;float:none;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:center;vertical-align:top;width:100%"><tbody><tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top"><a href="#" style="border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">www.bitnami.com</a> <a href="#" style="border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">info@bitnami.com</a> <a href="#" style="border:none!important;border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">Unsubscribe</a></tr></tbody></table></center></th></tr></tbody></table></th></tr></tbody></table></td></tr></tbody></table></center></td></tr></table><!-- prevent Gmail on iOS font size manipulation --><div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></body></html>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background:#f2f2f2;background-color:#f2f2f2">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bitnami</title>
+    <style>
+        @media only screen {
+            html {
+                min-height: 100%;
+                background: #f3f3f3
+            }
+        }
+
+        @media only screen and (max-width:596px) {
+            table.body img {
+                width: auto;
+                height: auto
+            }
+
+            table.body center {
+                min-width: 0 !important
+            }
+
+            table.body .container {
+                width: 95% !important
+            }
+
+            table.body .columns {
+                height: auto !important;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                padding-left: 16px !important;
+                padding-right: 16px !important
+            }
+
+            table.body .columns .columns {
+                padding-left: 0 !important;
+                padding-right: 0 !important
+            }
+
+            th.small-12 {
+                display: inline-block !important;
+                width: 100% !important
+            }
+
+            .columns th.small-12 {
+                display: block !important;
+                width: 100% !important
+            }
+        }
+    </style>
+</head>
+
+<body
+    style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;background:#f2f2f2;background-color:#f2f2f2;box-sizing:border-box;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;width:100%!important">
+    <span class="preheader"
+        style="color:#f3f3f3;display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibility:hidden"></span>
+    <table class="body"
+        style="Margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+        <tr style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+            <td class="center" align="center" valign="top"
+                style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                <center style="min-width:580px;width:100%">
+                    <table align="center" class="container float-center"
+                        style="Margin:0 auto;background:#fefefe;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;vertical-align:top;width:580px">
+                        <tbody>
+                            <tr
+                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                <td
+                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                    <table class="row header"
+                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding:0!important;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <img src="https://i.postimg.cc/JzXZqtKM/logo.png"
+                                                                        class="logo" alt="image of bitnami logo"
+                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                                </th>
+                                                                <th class="expander"
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word">
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row build-app"
+                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <h4
+                                                                        style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">
+                                                                        New Tanzu Developer Portal: Grow Your Skills
+                                                                        Building Apps</h4><img
+                                                                        src="https://i.postimg.cc/QthQVsQs/bg1.jpg"
+                                                                        class="bg" alt="image of bitnami background one"
+                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px!important">
+                                                                    <p
+                                                                        style="Margin:0;Margin-bottom:10px;color:#5f6369;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                        VMware Tanzu is a collection of software and
+                                                                        open source projects designed to help developers
+                                                                        build modern applications within the companies
+                                                                        they are working for. The Tanzu Developer portal
+                                                                        brings you a selection of essential topics for
+                                                                        modern app development. Learn about the latest
+                                                                        languages, frameworks, and CI/CD platforms to
+                                                                        boost your skills and start building amazing
+                                                                        applications!</p><a href="#" class="btn"
+                                                                        style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn
+                                                                        More</a>
+                                                                </th>
+                                                                <th class="expander"
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word">
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row deploy"
+                                        style="background:#00437b;background-color:#00437b;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <h4
+                                                                        style="Margin:0;Margin-bottom:10px;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">
+                                                                        Deploy from a Private Helm and Docker Registry
+                                                                        Through Kubeapps</h4><img
+                                                                        src="https://i.postimg.cc/NMdHMXG7/bg3.png"
+                                                                        class="bg" alt="image of bitnami background"
+                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px">
+                                                                    <p
+                                                                        style="Margin:0;Margin-bottom:10px;color:#c7c7c7;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:300;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                        The new release of Kubeapps now supports the
+                                                                        deployment from private Helm repositories with
+                                                                        private Docker images. Now you can associate a
+                                                                        Docker image pull secret to an application
+                                                                        repository from the Kubeapps UI to simplify the
+                                                                        access to private repos within a Kubernetes RBAC
+                                                                        authentication model. Both Kubernetes cluster
+                                                                        operators and users will benefit of this new
+                                                                        feature, so check out the latest feature now.
+                                                                    </p><a href="#" class="btn"
+                                                                        style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn
+                                                                        More</a>
+                                                                </th>
+                                                                <th class="expander"
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word">
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row application-catalog"
+                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <h4
+                                                                        style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;word-wrap:normal">
+                                                                        Consume Tanzu Application Catalog Images Using A
+                                                                        Private Harbor Registry</h4><img
+                                                                        src="https://i.postimg.cc/Pr91Y1WS/bg2.jpg"
+                                                                        class="bg" alt="image of bitnami background"
+                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:15px;max-width:100%;outline:0;text-decoration:none;width:500px">
+                                                                    <p
+                                                                        style="Margin:0;Margin-bottom:10px;color:#5f6369;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:22px;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left">
+                                                                        Learn how to consume your images from a private
+                                                                        registry like Harbor with access to the latest,
+                                                                        most secure, and continuously maintained
+                                                                        container images from the Tanzu Application
+                                                                        Catalog. Follow the step-by-step guide below to
+                                                                        learn how.</p><a href="#" class="btn"
+                                                                        style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">Learn
+                                                                        More</a>
+                                                                </th>
+                                                                <th class="expander"
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;visibility:hidden;width:0;word-wrap:break-word">
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="line"
+                                        style="background:#222;background-color:#222;color:#222;height:1px;margin:0 auto;margin-bottom:25px!important;margin-top:25px!important;width:475px!important">
+                                    </div>
+                                    <table class="row icon-container"
+                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:middle!important;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                    <table class="row"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-1 columns first"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <img src="https://i.postimg.cc/FzK0gZCB/icon1.png"
+                                                                                                        class="logo"
+                                                                                                        alt="image of bitnami icon"
+                                                                                                        width="50px"
+                                                                                                        height="50px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-6 columns last"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">How
+                                                                                                        to Use and
+                                                                                                        Consume Trusted
+                                                                                                        Content in your
+                                                                                                        Organization
+                                                                                                        with VMware
+                                                                                                        Tanzu
+                                                                                                        Application
+                                                                                                        Catalog</a></th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <table class="row"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-1 columns first"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <img src="https://i.postimg.cc/9MbG7Sb9/icon2.png"
+                                                                                                        class="icon"
+                                                                                                        alt="image of bitnami icon"
+                                                                                                        width="50px"
+                                                                                                        height="50px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-6 columns last"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Container
+                                                                                                        Registry: Easily
+                                                                                                        Deploy Container
+                                                                                                        Assets on VMware
+                                                                                                        Cloud
+                                                                                                        Marketplace</a>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <table class="row"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-1 columns first"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <img src="https://i.postimg.cc/CMvGM3zT/icon3.png"
+                                                                                                        class="icon"
+                                                                                                        alt="image of bitnami icon"
+                                                                                                        width="50px"
+                                                                                                        height="50px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-6 columns last"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Build,
+                                                                                                        Deploy and
+                                                                                                        Monitor an
+                                                                                                        Express
+                                                                                                        Application on
+                                                                                                        Kubernetes with
+                                                                                                        Bitnami and
+                                                                                                        Sentry</a></th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <table class="row"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-1 columns first"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:middle!important;width:8.33333%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <img src="https://i.postimg.cc/PJFY6wBr/icon4.png"
+                                                                                                        class="icon"
+                                                                                                        alt="image of bitnami icon"
+                                                                                                        width="50px"
+                                                                                                        height="50px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;height:75px!important;margin:0 auto;max-width:100%;outline:0;text-decoration:none;width:auto">
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-6 columns last"
+                                                                                    valign="middle"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:middle!important;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:middle!important;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none">Backup
+                                                                                                        and Restore
+                                                                                                        MariaDB Galera
+                                                                                                        Deployments on
+                                                                                                        Kubernetes</a>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="line"
+                                        style="background:#222;background-color:#222;color:#222;height:1px;margin:0 auto;margin-bottom:25px!important;margin-top:25px!important;width:475px!important">
+                                    </div>
+                                    <table class="row"
+                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <h4 class="text-center"
+                                                                        style="Margin:0;Margin-bottom:10px;color:#1c2b39;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                        Most recently updated apps</h4>
+                                                                    <table class="row icons"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-3 columns first"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        PostgreSQL HA
+                                                                                                    </h6><img
+                                                                                                        src="https://i.postimg.cc/TYprKtDy/update-app1.png"
+                                                                                                        class="app"
+                                                                                                        alt="image of bitnami update app"
+                                                                                                        width="90px"
+                                                                                                        height="90px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Version Update
+                                                                                                        12.3.0</h6>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-3 columns"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Redis</h6><img
+                                                                                                        src="https://i.postimg.cc/26kWrGYS/update-app2.png"
+                                                                                                        class="app"
+                                                                                                        alt="image of bitnami update app"
+                                                                                                        width="90px"
+                                                                                                        height="90px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Version Update
+                                                                                                        6.0.3</h6>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-3 columns"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Grafana</h6><img
+                                                                                                        src="https://i.postimg.cc/mrN9vq0n/update-app3.png"
+                                                                                                        class="app"
+                                                                                                        alt="image of bitnami update app"
+                                                                                                        width="90px"
+                                                                                                        height="90px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Version Update
+                                                                                                        6.7.3</h6>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-3 columns last"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:top;width:25%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        MySQL</h6><img
+                                                                                                        src="https://i.postimg.cc/MG8RrxrR/update-app4.png"
+                                                                                                        class="app"
+                                                                                                        alt="image of bitnami update app"
+                                                                                                        width="90px"
+                                                                                                        height="90px"
+                                                                                                        style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:0 auto;margin-bottom:20px;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                                                                                                    <h6
+                                                                                                        style="Margin:0;Margin-bottom:10px;color:#8e8b85;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                                                        Version Update
+                                                                                                        8.0.20</h6>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table><a href="#" class="btn"
+                                                                        style="background:#f58220;background-color:#f58220;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0 auto;padding:10px 25px;text-align:center;text-decoration:none;text-transform:uppercase;width:25%!important">More
+                                                                        Updates</a>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row benefits"
+                                        style="background:#00437b;background-color:#00437b;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:20px!important;padding-left:20px!important;padding-right:20px!important;padding-top:40px!important;position:relative;text-align:left;vertical-align:top;width:100%">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <h4
+                                                                        style="Margin:0;Margin-bottom:10px;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;line-height:1.3;margin:0;margin-bottom:10px;margin-top:30px!important;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:center;word-wrap:normal">
+                                                                        Great Ways You Can Benefit From Bitnami</h4>
+                                                                    <table class="row"
+                                                                        style="border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                                                        <tbody>
+                                                                            <tr
+                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                <th class="small-12 large-6 columns first"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:0!important;padding-right:8px;padding-top:0;text-align:left;vertical-align:top;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:18px!important;font-weight:400;line-height:1.3;padding:0;text-align:center;text-decoration:underline">Launch
+                                                                                                        Bitnami
+                                                                                                        Applications in
+                                                                                                        the Cloud</a>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                                <th class="small-12 large-6 columns last"
+                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:8px;padding-right:0!important;padding-top:0;text-align:left;vertical-align:top;width:50%;word-wrap:break-word">
+                                                                                    <table
+                                                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                                                        <tbody>
+                                                                                            <tr
+                                                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                                <th
+                                                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                                                    <a href="#"
+                                                                                                        style="color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:18px!important;font-weight:400;line-height:1.3;padding:0;text-align:center;text-decoration:underline">Run
+                                                                                                        Applications in
+                                                                                                        Kubernetes</a>
+                                                                                                </th>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row space"
+                                        style="background:#e9e9e9;background-color:#e9e9e9;border-collapse:collapse;border-spacing:0;display:table;height:60px!important;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%!important">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="row footer"
+                                        style="background:#e9e9e9;background-color:#e9e9e9;border-collapse:collapse;border-spacing:0;display:table;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:left;vertical-align:top;width:100%!important">
+                                        <tbody>
+                                            <tr
+                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                <th class="small-12 large-12 columns first last"
+                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0 auto;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0 auto;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:0;text-align:left;vertical-align:top;width:564px;word-wrap:break-word">
+                                                    <table
+                                                        style="border-collapse:collapse;border-spacing:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;width:100%">
+                                                        <tbody>
+                                                            <tr
+                                                                style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                <th
+                                                                    style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top;word-wrap:break-word">
+                                                                    <center style="min-width:532px;width:100%">
+                                                                        <table align="center" class="row float-center"
+                                                                            style="Margin:0 auto;border-collapse:collapse;border-spacing:0;display:table;float:none;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;position:relative;text-align:center;vertical-align:top;width:100%">
+                                                                            <tbody>
+                                                                                <tr
+                                                                                    style="padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;text-align:left;vertical-align:top">
+                                                                                    <a href="#"
+                                                                                        style="border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">www.bitnami.com</a>
+                                                                                    <a href="#"
+                                                                                        style="border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">info@bitnami.com</a>
+                                                                                    <a href="#"
+                                                                                        style="border:none!important;border-right:1px solid #000;color:#2199e8;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;padding:0;padding-left:10px;padding-right:10px;text-align:center;text-decoration:none">Unsubscribe</a>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </center>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table><!-- prevent Gmail on iOS font size manipulation -->
+    <div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+</body>
+
+</html>
